@@ -21,6 +21,7 @@ jobs:
           repository: Iain-S/AdventOfAction
           token: ${{ secrets.PAT }}
           path: AdventOfAction
+          ref: repotest
       - name: Run the private action
         uses: ./AdventOfAction
         with:
