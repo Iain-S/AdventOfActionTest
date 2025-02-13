@@ -1,3 +1,11 @@
 # AdventOfActionTest
 
-Test out the Advent of Action repo.
+Test out the Advent of Action repo with solutions from 2024.
+
+
+## Stats
+
+| day | language | who | part | time (s) | mem (KB) | notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| 01 | python | radka | one | 0.00 | 9728 |  |
+| 01 | python | radka | two | 0.02 | 9856 |  |
