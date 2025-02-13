@@ -16,13 +16,14 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
       - name: Run the private action
-        uses: Iain-S/AdventOfAction@0.1.3
+        uses: Iain-S/AdventOfAction@0.1.4
         with:
           python-version: "3.13"
           dotnet-version: -1
           racket-version: -1
           ocaml-version: -1
           working-directory: ./
+          gpg-passphrase: yourpassword
       - name: Commit results
         shell: bash
         run: |
