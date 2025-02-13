@@ -15,15 +15,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
-      - name: Checkout the private action repo
-        uses: actions/checkout@v4
-        with:
-          repository: Iain-S/AdventOfAction
-          token: ${{ secrets.PAT }}
-          path: AdventOfAction
-          ref: repotest
       - name: Run the private action
-        uses: ./AdventOfAction
+        uses: Iain-S/AdventOfAction@0.1.2
         with:
           python-version: "3.13"
           dotnet-version: -1
