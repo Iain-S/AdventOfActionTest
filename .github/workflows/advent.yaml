@@ -16,7 +16,7 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
       - name: Run the private action
-        uses: Iain-S/AdventOfAction@0.1
+        uses: Iain-S/AdventOfAction@main
         with:
           python-version: "3.13"
           dotnet-version: -1
