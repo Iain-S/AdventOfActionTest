@@ -26,6 +26,9 @@ jobs:
         uses: ./AdventOfAction
         with:
           python-version: "3.13"
+          dotnet-version: -1
+          racket-version: -1
+          ocaml-version: -1
           working-directory: ./
       - name: Commit results
         shell: bash
