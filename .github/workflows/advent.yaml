@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ github.head_ref || github.ref_name }}
       - name: Run the private action
         uses: Iain-S/AdventOfAction@main
         with:
@@ -31,4 +31,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Update README with results" || echo "No changes to commit"
-          git push
+          git push origin ${{ github.head_ref || github.ref_name }}
