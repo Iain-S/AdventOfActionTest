@@ -19,7 +19,7 @@ jobs:
         uses: Iain-S/AdventOfAction@main
         with:
           python-version: "3.13"
-          dotnet-version: -1
+          dotnet-version: 8
           racket-version: -1
           ocaml-version: -1
           working-directory: ./
