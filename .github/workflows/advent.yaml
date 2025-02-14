@@ -31,4 +31,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Update README with results" || echo "No changes to commit"
-          git push ${{ github.head_ref || github.ref_name }}
+          git push origin ${{ github.head_ref || github.ref_name }}
