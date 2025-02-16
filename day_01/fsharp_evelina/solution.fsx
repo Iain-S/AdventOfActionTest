@@ -14,7 +14,7 @@ if (System.Environment.GetCommandLineArgs().[-1] = "one") then
         ||> Array.map2 (fun x1 x2 -> abs(x1 - x2))
         |> Array.sum
 
-    printfn distance
+    printfn "%d" distance
 
 else
 
@@ -31,4 +31,4 @@ else
             else
                 0)
 
-    printfn similarityScore
+    printfn "%d" similarityScore
