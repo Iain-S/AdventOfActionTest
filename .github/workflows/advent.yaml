@@ -16,7 +16,7 @@ jobs:
         with:
           ref: ${{ github.head_ref || github.ref_name }}
       - name: Run the action
-        uses: Iain-S/AdventOfAction@main
+        uses: Iain-S/AdventOfAction@opam
         with:
           python-version: "3.13"
           dotnet-version: 8
