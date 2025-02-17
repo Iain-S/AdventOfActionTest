@@ -7,7 +7,7 @@ let list1, list2 =
         int items.[0], int items.[1])
     |> Array.unzip
 
-if (System.Environment.GetCommandLineArgs().[-1] = "one") then
+if (fsi.CommandLineArgs |> List.ofArray |> List.last = "one") then
 
     let distance =
         (list1 |> Array.sort, list2 |> Array.sort)
