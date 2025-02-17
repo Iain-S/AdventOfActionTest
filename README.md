@@ -11,3 +11,5 @@ Test out the Advent of Action repo with solutions from 2024.
 | 01 | python | radka | two | 0.02 | 9856 |  |
 | 01 | rust | iain | one | 0.25 | 166172 |  |
 | 01 | rust | iain | two | 0.04 | 21580 |  |
+| 01 | fsharp | evelina | one | 1.66 | 233996 |  |
+| 01 | fsharp | evelina | two | 1.73 | 233672 |  |
