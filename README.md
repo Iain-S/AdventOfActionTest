@@ -3,13 +3,15 @@
 Test out the Advent of Action repo with solutions from 2024.
 
 
+
+
 ## Stats
 
 | day | language | who | part | time (s) | mem (KB) | notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| 01 | python | radka | one | 0.00 | 9728 |  |
-| 01 | python | radka | two | 0.02 | 9856 |  |
-| 01 | rust | iain | one | 0.25 | 166172 |  |
-| 01 | rust | iain | two | 0.04 | 21580 |  |
-| 01 | fsharp | evelina | one | 1.66 | 233996 |  |
-| 01 | fsharp | evelina | two | 1.73 | 233672 |  |
+| 01 | fsharp | evelina | one | 1.68 | 236516 |  |
+| 01 | fsharp | evelina | two | 1.77 | 235800 |  |
+| 01 | python | radka | one | 0.01 | 9728 |  |
+| 01 | python | radka | two | 0.01 | 9856 |  |
+| 01 | rust | iain | one | 0.04 | 21316 |  |
+| 01 | rust | iain | two | 0.04 | 21444 |  |
