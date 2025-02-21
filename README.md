@@ -8,7 +8,7 @@ Test out the Advent of Action repo with solutions from 2024.
 ## Stats
 
 | day | language | who | part | time (s) | mem (KB) | notes |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --: | --- |
 | 01 | fsharp | evelina | one | 1.68 | 236516 |  |
 | 01 | fsharp | evelina | two | 1.77 | 235800 |  |
 | 01 | python | radka | one | 0.01 | 9728 |  |
