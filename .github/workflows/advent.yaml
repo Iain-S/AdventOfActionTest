@@ -18,7 +18,7 @@ jobs:
       - name: Run the action
         uses: Iain-S/AdventOfAction@main
         with:
-          python-version: "3.13"
+          python-version: "3.12"
           dotnet-version: 8
           racket-version: -1
           ocaml-version: -1

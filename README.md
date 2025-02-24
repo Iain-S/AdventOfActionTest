@@ -3,19 +3,17 @@
 Test out the Advent of Action repo with solutions from 2024.
 
 
-
-
 ## Stats
 
-| day | language | who | part | time (s) | mem (KB) | notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| 01 | fsharp | evelina | one | 1.68 | 236516 |  |
-| 01 | fsharp | evelina | two | 1.77 | 235800 |  |
-| 01 | python | radka | one | 0.01 | 9728 |  |
-| 01 | python | radka | two | 0.01 | 9856 |  |
-| 01 | rust | iain | one | 0.04 | 21316 |  |
-| 01 | rust | iain | two | 0.04 | 21444 |  |
-| 01 | go | fiona | one | 0.00 | 3480 |  |
-| 01 | go | fiona | two | 0.00 | 3472 |  |
-| 01 | haskell | penny | one | 0.00 | 10388 |  |
-| 01 | haskell | penny | two | 0.00 | 11028 |  |
+| day | language | who | lines | part | time (s) | mem (KiB) | notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 01 | fsharp | evelina | 26 | one | 2.11 | 234608 |  |
+| 01 | fsharp | evelina | 26 | two | 1.83 | 232568 |  |
+| 01 | go | fiona | 51 | one | 0.00 | 3472 |  |
+| 01 | go | fiona | 51 | two | 0.00 | 3480 |  |
+| 01 | haskell | penny | 118 | one | 0.00 | 10512 |  |
+| 01 | haskell | penny | 118 | two | 0.01 | 10900 |  |
+| 01 | python | radka | 14 | one | 0.00 | 9984 |  |
+| 01 | python | radka | 14 | two | 0.01 | 9984 |  |
+| 01 | rust | iain | 48 | one | 0.00 | 2176 |  |
+| 01 | rust | iain | 48 | two | 0.00 | 2048 |  |
