@@ -15,7 +15,8 @@ def part_two():
     print("Day 1 part 2:", similarity_df(df), f"in {time.monotonic() - start:.3f} seconds")
 
 if __name__ == "__main__":
-    df = load_csv_as_df("input.txt")
+    import pandas as pd
+    df = pd.read_csv("input.txt", delimiter=",", header=None)
     if sys.argv[-1] == "one":
         print(distance_df(df))
     else:
