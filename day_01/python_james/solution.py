@@ -16,7 +16,7 @@ def part_two():
 
 if __name__ == "__main__":
     import pandas as pd
-    df = pd.read_csv("input.txt", delimiter=",", header=None)
+    df = pd.read_csv("input.txt", delimiter="   ", header=None, engine="python")
     if sys.argv[-1] == "one":
         print(distance_df(df))
     else:
