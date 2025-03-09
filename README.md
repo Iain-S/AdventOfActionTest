@@ -2,7 +2,6 @@
 
 Test out the Advent of Action repo with solutions from 2024.
 
-
 ## Stats
 
 | day | language | who | lines | part | time (s) | mem (MiB) | notes |
