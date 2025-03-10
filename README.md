@@ -2,7 +2,6 @@
 
 Test out the Advent of Action repo with solutions from 2024.
 
-
 ## Stats
 
 | day | language | who | lines | part | time (s) | mem (MiB) | notes |
@@ -17,3 +16,5 @@ Test out the Advent of Action repo with solutions from 2024.
 | 01 | python | radka | 14 | two | 0.01 | 9.8 |  |
 | 01 | rust | iain | 48 | one | 0.00 | 2.0 |  |
 | 01 | rust | iain | 48 | two | 0.00 | 2.0 |  |
+| 01 | python | james | 19 | one | 0.65 | 70.3 |  |
+| 01 | python | james | 19 | two | 0.66 | 70.9 |  |
